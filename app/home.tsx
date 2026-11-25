@@ -8,7 +8,7 @@ export default async function HomeC() {
     <>
       <h1>{homeContent.title}</h1>
       <p>{homeContent.body}</p>
-      <img src={homeContent.image} width={250} />
+      <img src={`.${homeContent.image}`} width={250} />
     </>
   )
 }
