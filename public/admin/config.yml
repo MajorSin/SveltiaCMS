@@ -10,7 +10,7 @@ public_folder: /media
 collections:
   - name: steps
     label: Steps
-    label_singular: Steps
+    label_singular: Step
     file: /content/steps.json
     fields:
       - { label: Title, name: title, widget: string }
