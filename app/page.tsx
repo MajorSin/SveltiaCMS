@@ -2,11 +2,12 @@
 
 import { Suspense } from "react";
 import Post from "./post";
+import HomeC from "./home";
 
 export default function Home() {
   return (
     <div>
-      <p>Hello world</p>
+      <HomeC />
       <Suspense fallback={<div>Loading...</div>}>
         <Post />
       </Suspense>

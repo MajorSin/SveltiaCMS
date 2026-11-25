@@ -11,7 +11,7 @@ collections:
   - name: steps
     label: Steps
     label_singular: Steps
-    folder: /content/steps
+    file: /content/steps.json
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: string }
@@ -19,7 +19,7 @@ collections:
 singletons:
   - name: home
     label: Home Page
-    file: content/home.yaml
+    file: content/home.json
     fields:
       - { label: Title, name: title }
       - { label: Body, name: body, widget: richtext }
